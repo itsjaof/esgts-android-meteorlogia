@@ -165,8 +165,10 @@ class MainActivity : ComponentActivity() {
                     .clip(CircleShape)
                     .background(brush = Brush.verticalGradient(
                         colors = listOf(
-                            Color(0x5FFFFFFF),
-                            Color(0xBAFFFFFF),
+                            Color(0x00FFFFFF),
+                            Color(0x48FFFFFF),
+                            Color(0xA4FFFFFF),
+                            Color(0xFFFFFFFF),
                         )
                     ))
             ) {
